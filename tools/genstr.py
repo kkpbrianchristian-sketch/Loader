@@ -12,6 +12,8 @@ import asyncio
 import os
 
 from dotenv import load_dotenv
+import asyncio
+asyncio.set_event_loop(asyncio.new_event_loop())
 from pyrogram import Client
 from pyrogram.errors import UserIsBot
 
