@@ -1,5 +1,6 @@
 dnspython
 gitpython
 motor
-pyrogram>=2.0.30
+kurigram
+tgcrypto
 python-dotenv
